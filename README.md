@@ -31,3 +31,11 @@ Before you begin, ensure you have met the following requirements:
 
 Node.js and npm installed on your machine
 MongoDB installed and running locally or a MongoDB Atlas account
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+
+
+
