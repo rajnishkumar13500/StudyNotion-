@@ -34,8 +34,47 @@ MongoDB installed and running locally or a MongoDB Atlas account
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
+   ​```
+git clone https://github.com/rajnishkumar13500/StudyNotion-.git
+cd StudyNotion
+​```
+2. Set up the backend:```cd server
+npm install```
+
+3. Set up the frontend:```cd frontend
+npm install```
+
+## Configuration
+### Backend
+Create a .env file in the server directory and add the following environment variables:
+```
+PORT=5000
+MONGODB_URI=your-mongodb-uri
+CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+CLOUDINARY_API_KEY=your-cloudinary-api-key
+CLOUDINARY_API_SECRET=your-cloudinary-api-secret
+EMAIL_USER=your-email@example.com
+EMAIL_PASS=your-email-password 
+```
+### Frontend
+Create a .env file in the client directory and add the following environment variables:
+
+```REACT_APP_API_URL=http://localhost:5000```
+
+### Running the Application
+
+Start the backend server:
+```
+cd server
+npm start
+```
+
+Start the frontend development server:
+```
+cd frontend
+npm start
+```
+Open your browser and navigate to http://localhost:3000.
 
 
 
